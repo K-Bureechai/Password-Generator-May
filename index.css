@@ -1,0 +1,75 @@
+body {
+
+    background-color: #1c1c1c;
+}
+
+#apps {
+    width: 550px;
+    margin: 64px auto;
+    padding: 115px 52px;
+    background-color:
+        #1F2937;
+    color: white;
+}
+
+h2 {
+    font-family: "Karla",
+        sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+    margin: 0;
+}
+
+#text-color {
+    color: #10B981;
+}
+
+p {
+    font-family: "Inter",
+        sans-serif;
+    ;
+    font-weight: 400;
+    size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+
+#genPass {
+    color: white;
+    font-family: "Inter",
+        sans-serif;
+    font-weight: 500;
+    size: 16px;
+    line-height: 24px;
+    padding: 9px 17px;
+    background-color: #10B981;
+    border: none;
+    border-radius: 6px;
+    margin-top: 51px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+
+hr {
+    border-color: #d5d4d845;
+}
+#main {
+    display: flex;
+    justify-content: start;
+    
+}
+#passwordOne, #passwordTwo {
+    margin-top: 35px;
+    margin-right: 20px;
+    color: #10B981;
+    background-color: #273549;
+    width: 211px;
+    border-radius: 6px;
+    padding: 14px 16px;
+    text-align: center;
+    font-family: "Inter",
+            sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
