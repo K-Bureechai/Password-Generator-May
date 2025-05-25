@@ -101,8 +101,8 @@ genPass.addEventListener("click", function () {
 
   for (let i = 0; i < 15; i++) {
     passwordOne.textContent +=
-      characters[Math.round(Math.random() * characters.length)];
+      characters[Math.floor(Math.random() * characters.length)];
     passwordTwo.textContent +=
-      characters[Math.round(Math.random() * characters.length)];
+      characters[Math.floor(Math.random() * characters.length)];
   }
 });
